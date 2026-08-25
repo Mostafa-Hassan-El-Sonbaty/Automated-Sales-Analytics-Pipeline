@@ -15,6 +15,22 @@ This project transitions ad-hoc manual data analysis into a robust, automated Py
 4. **Exploratory & Statistical Analysis**: Generates correlation matrices and distribution analyses.
 5. **Automated Reporting**: Prints an instant Executive KPI summary (Total Revenue, Total Profit, Average Profit Margin, Total Orders) and exports the cleaned dataset.
 
+---
+
+## 📊 Visual Insights & Results
+
+### 1. Total Profit by Sub-Category
+<p align="center">
+  <img src="Visualizations/2_Profit_by_SubCategory.png" alt="Profit by Sub-Category" width="800"/>
+</p>
+
+### 2. Statistical Correlation Matrix
+<p align="center">
+  <img src="Visualizations/8_Correlation_Matrix.png" alt="Correlation Matrix" width="700"/>
+</p>
+
+---
+
 ## 💡 Key Business Insights
 * **Category Profitability**: Technology is the main driver of overall margins, while specific sub-categories like 'Tables' (Furniture) operate at a significant loss and require immediate pricing or inventory adjustments.
 * **Discount Impact**: High discount levels show a strong negative correlation with profitability.
@@ -23,4 +39,4 @@ This project transitions ad-hoc manual data analysis into a robust, automated Py
 ## 📂 Repository Structure
 - `Advanced Automated Analytical Pipeline.ipynb`: The main notebook containing the OOP pipeline and execution code.
 - `Data/`: Contains the final output data (`Cleaned_Superstore_Data_2.csv`).
-- `Visualizations/`: Contains the 8 generated charts (Sales Trends, Profitability by Sub-Category, Correlation Matrix, etc.).
+- `Visualizations/`: Contains the generated charts (Sales Trends, Profitability by Sub-Category, Correlation Matrix, etc.).
